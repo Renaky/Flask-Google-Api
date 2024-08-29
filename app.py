@@ -49,7 +49,7 @@ def home():
         resultado = gerarBuscarConsulta(consulta, modeloEmbeddings)
 
  # Criar um prompt personalizado para gerar a resposta
-        prompt = (f"A seguir está uma informação retirada do banco de dados sobre um bom lugar para ver cachoeiras:\n\n"
+        prompt = (f"A seguir está uma informação retirada do banco de dados sobre um bom lugar para visitar:\n\n"
                     f"{resultado}\n\n"
                     f"Agora, por favor, crie uma resposta personalizada e amigável para um usuário que perguntou: '{consulta}'.")
         
@@ -75,7 +75,7 @@ def results():
         data = request.get_json(force=True)
         consulta = data["consulta"]
         resultado = gerarBuscarConsulta(consulta, modeloEmbeddings)
-        prompt = (f"A seguir está uma informação retirada do banco de dados sobre um bom lugar para ver cachoeiras:\n\n"
+        prompt = (f"A seguir está uma informação retirada do banco de dados sobre um bom lugar para visitar:\n\n"
                     f"{resultado}\n\n"
                     f"Agora, por favor, crie uma resposta personalizada e amigável para um usuário que perguntou: '{consulta}'.")
         
