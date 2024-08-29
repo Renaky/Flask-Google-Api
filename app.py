@@ -45,7 +45,7 @@ model2 = genai.GenerativeModel( model_name="gemini-1.0-pro")
 @app.route("/")
 def home():
     try:
-        consulta = "Um bom lugar para ver cachoeiras?"
+        consulta = "O que você pode fazer?"
         resultado = gerarBuscarConsulta(consulta, modeloEmbeddings)
 
  # Criar um prompt personalizado para gerar a resposta
