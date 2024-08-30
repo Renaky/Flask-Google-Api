@@ -86,7 +86,15 @@ https://react-chat-bot-beta.vercel.app/
 
  Backend:
 - [@Emerson Renaki](https://www.github.com/renaky)
+
+Frontend:
 - [@Alex de Souza](https://www.github.com/AlexDeSouza2502)
 - [@Leticia Vieira](https://www.github.com/1993LETICIA)
 
+
+
+## Referência
+
+ - [Youtube: Dr. Matheus Franco](https://www.youtube.com/watch?v=QpC9hUVgwno&t=4s)
+ - [README.SO](https://readme.so/)
 
